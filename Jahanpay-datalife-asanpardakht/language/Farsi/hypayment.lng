@@ -1,0 +1,52 @@
+<?php
+
+/**
+ * DLEPERSIAN DEVELOPMENT TEAM
+ * ------------------------------------------------------
+ * @author Hamid Yousefi <mails.hamidyousefi@gmail.com>
+ * @link http://dlepersian.ir/10-jahanpay.html
+ * @version 1.1 Farsi
+ * ------------------------------------------------------
+ * @date 2015/02/24
+ */
+
+defined("DATALIFEENGINE") || exit;
+
+$lang['order'] = "ردیف";
+$lang['situation'] = "وضعیت";
+$lang['date'] = "تاریخ";
+$lang['amount'] = "مبلغ (تومان)";
+$lang['transid'] = "شناسه پیگیری";
+$lang['info'] = "متن پیام";
+$lang['email'] = "ایمیل";
+$lang['mobile'] = "موبایل";
+$lang['name'] = "نام کامل";
+$lang['actions'] = "اقدامات";
+$lang['success_transactions'] = "تراکنش های موفق";
+$lang['hypayment_t'] = "پرداخت آنلاین";
+$lang['hypayment_d'] = "ماژول پرداخت آنلاین با سرویس درگاه واسط جهان پی";
+$lang['toman'] = "تومان";
+
+$lang['verification_error'] = "خطا در ارزیابی صحت تراکنش";
+$lang['verified_msg'] = "پرداخت کامل شد";
+$lang['payment_error'] = "خطا در فرآیند پرداخت";
+$lang['fields_required'] = "لطفا فیلد های پرداخت را تکمیل فرمائید";
+$lang['name_required'] = "تکمیل فیلد نام الزامی است...";
+$lang['amount_required'] = "مبلغ وارد شده صحیح نیست. لطفا در درج مبلغ مورد نظر دقت فرمائید...";
+$lang['address_required'] = "آدرس ایمیل وارد شده صحیح نیست. لطفا از یک آدرس صحیح استفاده نمائید...";
+$lang['verified_complete'] = "پرداخت شما با موفقیت در سیستم ثبت گردید. شناسه پیگیری شما: " ;
+
+$lang['jahanpay_err_20'] = "API وارد شده با سیستم جهان پی سازگار نیست...";
+$lang['jahanpay_err_21'] = "IP نامعتبر است...";
+$lang['jahanpay_err_22'] = "مبلغ وارد شده از حداقل مورد نیاز کمتر است...";
+$lang['jahanpay_err_23'] = "مبلغ از حداکثر قابل قبول بیشتر است...";
+$lang['jahanpay_err_24'] = "مبلغ نامعتبر است...";
+$lang['jahanpay_err_6'] = "ارتباط با بانک برقرار نشد";
+$lang['jahanpay_err_26'] = "درگاه غیرفعال است...";
+$lang['jahanpay_err_27'] = "IP شما مسدود است...";
+$lang['jahanpay_err_9'] = "خطای غیر قابل تشخیص...";
+$lang['jahanpay_err_29'] = "آدرس بازگشتی نامعتبر است...";
+$lang['jahanpay_err_30'] = "چنین تراکنشی یافت نشد...";
+$lang['jahanpay_err_31'] = "تراکنش انجام نشد...";
+$lang['jahanpay_err_32'] = "تراکنش انجام شده، اما مبلغ نادرست است...";
+$lang['jahanpay_err_0'] = "خطای داخلی سیستم، لطفا در زمان دیگری تلاش فرمائید...";
